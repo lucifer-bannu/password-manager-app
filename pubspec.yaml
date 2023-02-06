@@ -1,0 +1,74 @@
+name: passman
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 0.0.1-beta
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  at_client_mobile: ^3.2.7
+  at_onboarding_flutter: ^5.0.5
+  cupertino_icons: ^1.0.5
+  device_info_plus: ^8.0.0
+  dotted_border: ^2.0.0+3
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.0.2
+  flutter_launcher_icons: ^0.11.0
+  flutter_local_notifications: ^12.0.4
+  # flutter_qr_reader: ^1.0.5
+  freezed_annotation: ^2.2.0
+  intl: ^0.17.0
+  json_annotation: ^4.7.0
+  local_auth: ^2.1.2
+  lottie: ^2.0.0
+  page_transition: ^2.0.9
+  path_provider: ^2.0.11
+  provider: ^6.0.4
+  secure_application: ^3.8.0
+  shared_preferences: ^2.0.15
+  tabler_icons: ^0.0.3
+  uuid: ^3.0.7
+
+dependency_overrides:
+  share_plus: ^6.3.0
+  package_info_plus: ^3.0.2
+  permission_handler: ^10.2.0
+  test: ^1.21.1
+  file_picker: ^5.2.3
+  test_api: ^0.4.9
+  file_saver:
+    git:
+      url: https://github.com/incrediblezayed/file_saver.git
+      ref: main
+dev_dependencies:
+  build_runner: ^2.3.2
+  freezed: ^2.3.0
+  import_sorter: ^4.6.0
+  json_serializable: ^6.5.4
+  lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/avatars/
+    - assets/images/
+    - assets/images/cards/
+    - assets/lottie/
+    - .env
+
+flutter_icons:
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#FFFFFFFF"
+  image_path_ios: "assets/images/logo.png"
+  image_path_android: "assets/images/android_logo.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+
+import_sorter:
+  emojis: true
