@@ -1,0 +1,9 @@
+NAMESPACE=passman
+ROOT_DOMAIN=root.atsign.org
+# ROOT_DOMAIN=vip.ve.atsign.zone
+ROOT_PORT=64
+API_KEY=477b-876u-bcez-c42z-6a3d
+SYNC_REGEX=.passman
+REPORT_ATSIGN=mangotangostable
+# REPORT_ATSIGN=@alice:tools:
+ADMIN_KEY=65b8536c-3090-524e-b0b8-1195aeec0d85
